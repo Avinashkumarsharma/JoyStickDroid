@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+	<header android:fragment = "thenoob.blackbox.joystickdroid.PreferenceDriod$Flux"
+	    	android:title = "@string/pref_header_name_flux" 
+	    	android:summary = "@string/pref_header_summary_flux"
+	    	android:icon = "@android:drawable/ic_menu_compass"/>    
+	
+	<header android:fragment = "thenoob.blackbox.joystickdroid.PreferenceDriod$Keys" 
+	     	android:title = "@string/pref_header_name_keys" 
+	    	android:summary = "@string/pref_header_summary_key"
+	    	android:icon = "@android:drawable/ic_menu_compass"/>    	
+</preference-headers>

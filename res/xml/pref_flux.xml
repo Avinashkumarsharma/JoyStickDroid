@@ -1,0 +1,129 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:blackbox="http://thenoob.blackbox.com">
+
+    <PreferenceCategory
+            android:title="@string/pref_cat_general">
+
+        <CheckBoxPreference
+                android:key="accelerometer"
+                android:title="@string/pref_flux_accelerometer"
+                android:summary="Enable or disable control on mobile tilt" 
+                android:defaultValue="true"/>
+        <CheckBoxPreference
+                android:key="vibration"
+                android:title="@string/pref_vibration"
+                android:summary="Enable or disable the Vibrations" 
+                android:defaultValue="true"/>
+        <thenoob.blackbox.joystickdroid.SeekBarPreference 
+            android:key="left_disc_radius"
+                android:title="@string/left_disc"
+                android:summary="@string/left_disc_desc"
+                android:defaultValue="95"
+                android:max="100"
+                blackbox:min="30"
+            	blackbox:unitsLeft=""
+            	blackbox:unitsRight="%"/>
+        <thenoob.blackbox.joystickdroid.SeekBarPreference 
+            android:key="right_disc_radius"
+                android:title="@string/right_disc"
+                android:summary="@string/right_disc_desc"
+                android:defaultValue="58"
+                android:max="100"
+                blackbox:min="30"
+            	blackbox:unitsLeft=""
+            	blackbox:unitsRight="%"/>
+    </PreferenceCategory>
+    
+
+    <PreferenceCategory
+            android:title="@string/pref_cat_controls">
+         <ListPreference 
+            android:key="binding_accel_axis2"
+            android:title="@string/bind_flux_accel_axis2"
+            android:summary="@string/bind_flux_accel_axis2_summary"
+            android:entries="@array/Controls"
+            android:entryValues="@array/ControlsValue" />
+         
+        <ListPreference 
+            android:key="binding_accel_axis1"
+            android:title="@string/bind_flux_accel_axis1"
+            android:summary="@string/bind_flux_accel_axis1_summary"
+            android:entries="@array/Controls"
+            android:entryValues="@array/ControlsValue" 
+            />
+        <ListPreference 
+            android:key="binding_ring_left"
+            android:title="Left Ring"
+            android:summary="Choose key for left ring"
+            android:entries="@array/Controls"
+            android:entryValues="@array/ControlsValue" 
+            />
+         <ListPreference 
+            android:key="binding_ring_right"
+            android:title="Right Ring"
+            android:summary="Choose key for Right ring"
+            android:entries="@array/Controls"
+            android:entryValues="@array/ControlsValue" 
+            />
+         <ListPreference 
+            android:key="left_top"
+            android:title="Left Top"
+            android:summary="Choose key for Left Top part of screen"
+            android:entries="@array/Controls"
+            android:entryValues="@array/ControlsValue" 
+            />
+         <ListPreference 
+            android:key="left_right"
+            android:title="Left Right"
+            android:summary="Choose key for Left Right part of screen"
+            android:entries="@array/Controls"
+            android:entryValues="@array/ControlsValue" 
+            />
+         <ListPreference 
+            android:key="left_bottom"
+            android:title="Left Bottom"
+            android:summary="Choose key for Left Bottom part of screen"
+            android:entries="@array/Controls"
+            android:entryValues="@array/ControlsValue" 
+            />
+       <ListPreference 
+            android:key="left_left"
+            android:title="Left Left"
+            android:summary="Choose key for Left Left part of screen"
+            android:entries="@array/Controls"
+            android:entryValues="@array/ControlsValue" 
+            />
+       <ListPreference 
+            android:key="right_top"
+            android:title="Right Top"
+            android:summary="Choose key for Right Top part of screen"
+            android:entries="@array/Controls"
+            android:defaultValue="16"
+            android:entryValues="@array/ControlsValue" 
+            />
+       <ListPreference 
+            android:key="right_right"
+            android:title="Right Right"
+            android:summary="Choose key for Right Right part of screen"
+            android:entries="@array/Controls"
+            android:entryValues="@array/ControlsValue" 
+            />
+       <ListPreference 
+            android:key="right_bottom"
+            android:title="Right Bottom"
+            android:summary="Choose key for Right Bottom part of screen"
+            android:entries="@array/Controls"
+            android:defaultValue="17"
+            android:entryValues="@array/ControlsValue" 
+            />
+       <ListPreference 
+            android:key="right_left"
+            android:title="Right Left"
+            android:summary="Choose key for Right Left part of screen"
+            android:entries="@array/Controls"
+            android:entryValues="@array/ControlsValue" 
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

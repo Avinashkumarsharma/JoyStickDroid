@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="thenoob.blackbox.joystickdroid.FluxActivity" >
+    <group android:id="@+id/settings" android:menuCategory="system" android:visible="true">
+        <item android:id="@+id/pref"
+            android:title="@string/menu_pref"
+            android:icon="@android:drawable/ic_menu_preferences" 
+            />
+    </group>
+    <group android:id="@+id/mutagen_loader" android:menuCategory="container" >
+        <item android:id="@+id/loader" 
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="@string/load_mutagen">
+            <menu >
+               <item android:id="@+id/flux"
+                   android:title="@string/menu_flux"
+                   android:icon="@android:drawable/ic_menu_rotate"/> 
+               <item android:id="@+id/keyboard"
+                   android:title="@string/menu_keyboard"
+                   android:icon="@android:drawable/ic_menu_rotate"
+                   /> 
+            </menu>
+            
+        </item>    
+    </group>
+
+</menu>

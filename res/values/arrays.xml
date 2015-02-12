@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Controls">
+        <item>NONE</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        
+        <item>Up</item>
+        <item>Down</item>
+        <item>Left</item>
+        <item>Right</item>
+        <item>Enter</item>
+        <item>Esc</item>
+        <item>Ctrl</item>
+        <item>Shift</item>
+        <item>Alt</item>
+        <item>Caps</item>
+        <item>Tab</item>
+        <item>Pgup</item>
+        <item>Pgdn</item>
+        
+    </string-array>
+	<string-array name="ControlsValue">
+        <item >1000</item>
+        <item >65</item>
+        <item >66</item>
+        <item >67</item>
+        <item >68</item>
+        <item >69</item>
+        <item >70</item>
+        <item >71</item>
+        <item >72</item>
+        <item >73</item>
+        <item >74</item>
+        <item >75</item>
+        <item >76</item>
+        <item >77</item>
+        <item >78</item>
+        <item >79</item>
+        <item >80</item>
+        <item >81</item>
+        <item >82</item>
+        <item >83</item>
+        <item >84</item>
+        <item >85</item>
+        <item >86</item>
+        <item >87</item>
+        <item >88</item>
+        <item >89</item>
+        <item >90</item>
+        
+        <item>38</item>
+        <item>40</item>
+        <item>37</item>
+        <item>39</item>
+        <item>10</item>
+        <item>27</item>
+        <item>17</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>9</item>
+        <item>33</item>
+        <item>34</item>
+        
+    </string-array>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JoyStick Droid</string>
+    <string name="company_note">A Blackbox Product by theNoob</string>
+    <string name="action_settings">Settings</string>
+    <string name="start_button">Start</string>
+    <string name="comp_name_hint">Enter Hostname/IP as shown in the Desktop app</string>
+    <string name="comp_name_inst">Hostname or ip from the Desktop client</string>
+    <string name="wifi_unavailabe">WiFi not available. Make sure it is on and connected to the local network.</string>
+    <string name="unreachable_host">The Host/IP cannot be reached. Make sure you have the Server running in Desktop. and the host name entered above is correct.</string>
+    <string name="empty_hostname">Please enter the hostname above as shown in desktop app. </string>
+    <string name="saving_hostname">It worked. Saving for next use..</string>
+    
+    <string name="title_activity_flux">FluxActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_pref">Preferences</string>
+    <string name="menu_flux">Flux</string>
+    <string name="menu_keyboard">Keys</string>
+    <string name="load_mutagen">Load Mutagen</string>
+    <string name="pref_header_summary_flux">Mutagen Flux Settings. Change ring color or size, manage vibration, assign controls</string>
+    <string name="pref_header_summary_key">Mutagen Key Settings.</string>
+    <string name="pref_header_name_flux">Flux</string>
+    <string name="pref_header_name_keys">Keys</string>
+    <string name="pref_cat_controls">Control Settings</string>
+    <string name="pref_cat_general">General Settings</string>
+    <string name="pref_flux_accelerometer">Accelerometer</string>
+    <string name="pref_vibration">Vibrations</string>
+    <string name="title_activity_preference_driod">Choose a mutagen</string>
+    <string name="bind_flux_accel_axis1">Right tilt</string>
+    <string name="bind_flux_accel_axis2">Left tilt</string>
+    <string name="bind_flux_accel_axis1_summary">Assign key to right tilt of mobile</string>
+    <string name="bind_flux_accel_axis2_summary">Assign key to left tilt of mobile</string>
+    <string name="left_disc">Left disc size</string>
+    <string name="right_disc">Right disc size</string>
+    <string name="right_disc_desc">Adjust right disc size to suit your need.</string>
+    <string name="left_disc_desc">Adjust left disc radius to fit your need</string>
+    
+    
+        <string name = "A" >65</string>
+        <string name = "B" >66</string>
+        <string name = "C" >67</string>
+        <string name = "D" >68</string>
+        <string name = "E" >69</string>
+        <string name = "F" >70</string>
+        <string name = "G" >71</string>
+        <string name = "H" >72</string>
+        <string name = "I" >73</string>
+        <string name = "J" >74</string>
+        <string name = "K" >75</string>
+        <string name = "L" >76</string>
+        <string name = "M" >77</string>
+        <string name = "N" >78</string>
+        <string name = "O" >79</string>
+        <string name = "P" >80</string>
+        <string name = "Q" >81</string>
+        <string name = "R" >82</string>
+        <string name = "S" >83</string>
+        <string name = "T" >84</string>
+        <string name = "U" >85</string>
+        <string name = "V" >86</string>
+        <string name = "W" >87</string>
+        <string name = "X" >88</string>
+        <string name = "Y" >89</string>
+        <string name = "Z" >90</string>
+        
+        <string name = "ENTER">10</string>
+        <string name = "SHIFT">16</string>
+        <string name = "PAGEUP">33</string>
+        <string name = "PAGEDOWN">34</string>
+        <string name = "ESC">27</string>
+        <string name = "TAB">9</string>
+        <string name = "CTRL">17</string>
+        <string name = "CAPSLOCK">20</string>
+        <string name = "ALT"></string>
+        
+        <string name = "UP">38</string>
+        <string name = "RIGHT">39</string>
+        <string name = "DOWN">40</string>
+		<string name = "LEFT">37</string>
+		
+		<string name = "ZERO">48</string>
+		<string name = "ONE">49</string>
+		<string name = "TWO">50</string>
+		<string name = "THREE">51</string>
+		<string name = "FOUR">52</string>
+		<string name = "FIVE">53</string>
+		<string name = "SIX">54</string>
+		<string name = "SEVEN">55</string>
+		<string name = "EIGHT">56</string>
+		<string name = "NINE">57</string>
+		
+		<string name="NONE">1000</string>
+		
+</resources>
